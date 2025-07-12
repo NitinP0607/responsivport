@@ -149,7 +149,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 50px;
+  padding: 0 10px;
   
 }
 
@@ -180,14 +180,15 @@ html {
   .home-section{
     display: block;
     width: 100%;
+    align-items: center;
     
   }
   .left-home-section{
     width: 100%;
-    padding: 0 10px;
    
   }
   .right-home-section{
+    width: 100%;
     text-align: center;
   }
   .left-home-section h1,
