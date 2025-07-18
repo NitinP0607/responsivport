@@ -16,7 +16,7 @@ menuIcon.addEventListener('click', () => {
       message: document.getElementById("message").value,
     };
 
-    const res = await fetch("http://localhost:8080/send", {
+    const res = await fetch("https://your-app-name.onrender.com/send", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data),
