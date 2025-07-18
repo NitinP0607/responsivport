@@ -138,7 +138,9 @@ html {
 #home,
 #about,
 #services,
-#contact {
+#contact,
+#careers {
+  width: 100%;
   min-height: 90vh;
   color: white;
   padding-top: 150px;
@@ -322,7 +324,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  width:100%;
+  width: 100%;
   border-radius: 6px;
   resize: none;
   font-size: 16px;
@@ -368,8 +370,122 @@ form button:hover {
     padding: 0px;
   }
 }
-footer{
-   user-select: none;
+
+/* Careers */
+
+#careers h1 {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 900;
+  cursor: pointer;
+}
+#careers h1:hover {
+  color: #9e8f38;
+  text-decoration: underline;
+}
+.careers{
+  padding: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center
+}
+.jobs{
+  text-align: center;
+  font-weight: 600;
+  color: #6b6b6b;
+  padding: 20px;
+}
+.job-title{
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  color: #6b6b6b;
+  padding: 20px;
+}
+.internships,
+.jobs-profiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+    gap: 20px;
+}
+.internship,
+.job-profile {
+  background-color: #181717;
+  padding: 20px;
+  border-radius: 20px;
+  width: 370px;
+  cursor: pointer;
+}
+.job-profile img{
+  width: 320px;
+  height: 200px;
+  border-radius: 10px;
+}
+.internship img {
+  width: 320px;
+  height: 200px;
+  border-radius: 10px;
+}
+.internship span 
+.job-profile span{
+  color: rgb(255, 249, 249);
+  font-weight: 600;
+  font-weight: 25px;
+}
+.internship h3,
+.job-profile h3{
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+}
+.internship p {
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 800;
+}
+.apply-job{
+  display: flex;
+  padding: 20px;
+  background-color: #1a1919;
+  border-radius: 20px;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  
+}
+.apply-job span{
+  font-size: 20px;
+  font-weight: 600;
+  color: #9e8f38; 
+}
+.apply-job span a{
+  text-decoration: none;
+  color: #9e8f38;
+}
+
+@media (max-width: 810px){
+  .careers{
+    padding: 10px;
+  }
+  .job-title{
+    font-size: 30px;
+  }
+  .apply-job{
+    width: 95%;
+  }
+}
+
+/* Footer */
+footer {
+  user-select: none;
 }
 .footer-section {
   display: flex;
@@ -412,7 +528,7 @@ footer{
   width: 90px;
   padding: 10px;
 }
-.content-footer{
+.content-footer {
   text-align: center;
   font-size: 20px;
   font-weight: 600;
