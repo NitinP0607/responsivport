@@ -412,7 +412,7 @@ form button:hover {
   padding: 10px;
   border-radius: 10px;
   width: 100%;
-    gap: 20px;
+  gap: 20px;
 }
 .internship,
 .job-profile {
@@ -422,30 +422,28 @@ form button:hover {
   width: 370px;
   cursor: pointer;
 }
-.job-profile img{
+.internship img,
+.job-profile img {
   width: 320px;
   height: 200px;
   border-radius: 10px;
 }
-.internship img {
-  width: 320px;
-  height: 200px;
-  border-radius: 10px;
-}
-.internship span 
+.internship span,
 .job-profile span{
-  color: rgb(255, 249, 249);
+  color: rgb(85, 133, 141);
   font-weight: 600;
   font-weight: 25px;
 }
 .internship h3,
 .job-profile h3{
-  color: white;
+  color: rgb(95, 97, 202);
   text-align: center;
-  padding: 10px;
+  padding: 20px;
   font-size: 20px;
 }
-.internship p {
+.internship p, 
+.job-profile p{
+  color: rgb(67, 240, 110);
   text-align: center;
   padding: 10px;
   font-size: 20px;
